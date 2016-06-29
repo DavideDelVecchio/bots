@@ -2,7 +2,7 @@ var restify = require('restify');
 var builder = require('botbuilder');
 
 
-var bot = new builder.BotConnectorBot({appId: '',appSecret: ''});
+var bot = new builder.BotConnectorBot({appId: 'dvdfirstbot',appSecret: '40fed20b34004681878870232a7114bf'});
 bot.add('/',function (session) {
     session.send('Hello World');
 });
